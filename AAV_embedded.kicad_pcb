@@ -19059,7 +19059,7 @@
 		)
 		(property "Value" "~{RESET_uMOD}"
 			(at 0 2.5 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "36ba4522-f7c0-4cc3-be33-5babc7c5f47a")
 			(effects
 				(font
@@ -28588,7 +28588,7 @@
 		)
 		(property "Value" "~{BOOT_uMOD}"
 			(at 0 2.5 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "7e3a136e-877d-453a-9a10-943106f0e5d4")
 			(effects
 				(font
@@ -29911,7 +29911,7 @@
 		)
 		(property "Value" "~{RESET_BRK}"
 			(at 0 2.5 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "b5941023-b353-4336-8ec3-58d6c4832d4c")
 			(effects
 				(font
@@ -30176,7 +30176,7 @@
 		)
 		(property "Value" "~{RESET_STR}"
 			(at 0 2.5 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "4ef44788-bbcc-4228-9dab-6e4925f5478e")
 			(effects
 				(font
@@ -41766,6 +41766,30 @@
 		(layer "Edge.Cuts")
 		(uuid "e2a3b110-dc1d-43cd-b384-3909044b3243")
 	)
+	(gr_text "12v"
+		(at 98.4 57.2 0)
+		(layer "F.SilkS")
+		(uuid "0458e64f-d288-429e-9ae9-94a674ba85c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BRAKING\nERROR"
+		(at 158.4 92.1 0)
+		(layer "F.SilkS")
+		(uuid "068746a4-37a1-44e6-ae84-91577079623e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "3.3v"
 		(at 57.6 63.1 90)
 		(layer "F.SilkS")
@@ -41775,6 +41799,18 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 75.35 57.5 0)
+		(layer "F.SilkS")
+		(uuid "11f30269-8804-416c-8710-5523b4ecfa56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -41867,6 +41903,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "-"
+		(at 90.35 55.9 0)
+		(layer "F.SilkS")
+		(uuid "70fabece-0d0f-4b12-b5d4-036fa4d5ed4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 102.55 55.9 0)
+		(layer "F.SilkS")
+		(uuid "7381e7b4-2fc9-4d7a-bf70-e33696faf100")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "12v"
 		(at 52.8 157.05 90)
 		(layer "F.SilkS")
@@ -41876,6 +41936,18 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 95.65 55.8 0)
+		(layer "F.SilkS")
+		(uuid "87e4019a-446b-47a0-840d-5c67598d2c33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -41893,6 +41965,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+"
+		(at 83.45 55.8 0)
+		(layer "F.SilkS")
+		(uuid "89473ada-8761-46ee-a33c-13274a411fe9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 67 63 90)
 		(layer "F.SilkS")
@@ -41902,6 +41986,30 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 78.5 55.75 0)
+		(layer "F.SilkS")
+		(uuid "a0e96380-6595-4ba9-95c3-9e8caa012f7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "STEERING\nPOWER"
+		(at 150.2 76.8 0)
+		(layer "F.SilkS")
+		(uuid "a1c48e1c-8fdc-486d-829f-2c1edc558a8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -41931,6 +42039,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "BRAKING\nPOWER"
+		(at 157.6 109 0)
+		(layer "F.SilkS")
+		(uuid "c3944761-dfbf-485e-9194-627170d79e82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Motor\nController"
 		(at 190.65 129.55 0)
 		(layer "F.SilkS")
@@ -41944,6 +42064,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "3.3v"
+		(at 86.1 57.4 0)
+		(layer "F.SilkS")
+		(uuid "c68e5bd6-c1a5-4d20-8ad8-28eb9436192a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "BRAKING \nACTUATOR"
 		(at 212.45 114.75 90)
 		(layer "F.SilkS")
@@ -41953,6 +42085,18 @@
 				(size 3 3)
 				(thickness 0.5)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 71.6 55.65 0)
+		(layer "F.SilkS")
+		(uuid "cc858efd-c5bd-4cc5-b8db-3d57595e3ea4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -41987,6 +42131,18 @@
 		(at 87.55 144.75 0)
 		(layer "F.SilkS")
 		(uuid "e41075e4-1272-4d6a-b4c1-39b116ca0c7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "STEERING \nERROR"
+		(at 150.2 64.05 0)
+		(layer "F.SilkS")
+		(uuid "e7e5d570-0cf3-4b19-8886-081b8a470eba")
 		(effects
 			(font
 				(size 1 1)
