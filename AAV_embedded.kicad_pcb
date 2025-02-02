@@ -43026,7 +43026,7 @@
 		)
 	)
 	(gr_text "Steering\nActuator"
-		(at 212.85 75.95 90)
+		(at 213.3 75.25 90)
 		(layer "F.SilkS")
 		(uuid "f1a9008e-ec92-49d9-9179-27fc497028ff")
 		(effects
@@ -51037,14 +51037,6 @@
 		(uuid "0c92156a-459d-4251-8604-7eb62de17591")
 	)
 	(segment
-		(start 131.25 51.9)
-		(end 131.55 52.2)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 142)
-		(uuid "0e4d3025-920d-4ea6-befb-5fde30a2ac99")
-	)
-	(segment
 		(start 134.05 93.6)
 		(end 132.068628 93.6)
 		(width 0.2)
@@ -51157,14 +51149,6 @@
 		(uuid "8ca61b80-f2ca-4525-b3d6-365bca85b168")
 	)
 	(segment
-		(start 131.25 50.7)
-		(end 131.25 51.9)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 142)
-		(uuid "99e1d7bc-5ef3-4bb1-b679-ab74c1eea7b2")
-	)
-	(segment
 		(start 145.368628 84.5)
 		(end 139.759314 90.109314)
 		(width 0.2)
@@ -51219,6 +51203,14 @@
 		(layer "F.Cu")
 		(net 142)
 		(uuid "bbbea0c8-4aa0-4871-9597-a6d7d033b295")
+	)
+	(segment
+		(start 131.25 50.7)
+		(end 131.25 51.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 142)
+		(uuid "cacbe775-1688-482a-96bd-860a4967c543")
 	)
 	(segment
 		(start 121 96)
