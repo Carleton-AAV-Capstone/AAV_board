@@ -150,8 +150,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -243,7 +243,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
