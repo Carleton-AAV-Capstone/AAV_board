@@ -3356,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 78.74) (xy 224.79 78.74)
+			(xy 224.79 78.74) (xy 256.54 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3433,16 +3433,6 @@
 			(type default)
 		)
 		(uuid "11189444-a7cf-4a6a-a96e-98f20f14136c")
-	)
-	(wire
-		(pts
-			(xy 247.65 78.74) (xy 256.54 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11dc63d7-1f83-43b5-a566-ab640452cd7a")
 	)
 	(wire
 		(pts
@@ -3736,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 72.39) (xy 242.57 72.39)
+			(xy 240.03 72.39) (xy 242.57 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4173,16 +4163,6 @@
 			(type default)
 		)
 		(uuid "7a0d8ef1-3d0a-426e-8ae9-98db64ab7139")
-	)
-	(wire
-		(pts
-			(xy 224.79 72.39) (xy 226.06 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d80359c-0ede-45b8-b586-4a1705b210aa")
 	)
 	(wire
 		(pts
@@ -9525,7 +9505,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 233.68 72.39 180)
+		(at 232.41 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9533,7 +9513,7 @@
 		(dnp no)
 		(uuid "cf65ba28-66c3-4490-a4d7-02c7a40d3aa9")
 		(property "Reference" "SW1"
-			(at 233.68 77.724 0)
+			(at 232.41 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +9521,7 @@
 			)
 		)
 		(property "Value" "DAC_ADDR"
-			(at 233.68 75.946 0)
+			(at 232.41 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +9529,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
-			(at 233.68 72.39 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9558,7 +9538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 72.39 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,7 +9547,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 233.68 72.39 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,73 +9565,6 @@
 			(project ""
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 243.84 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2c51f07-0968-4468-ac28-36c0b03009e5")
-		(property "Reference" "R4"
-			(at 243.586 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 243.586 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 243.84 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 243.84 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "822255a6-3968-4ce4-bc2e-460b8359233e")
-		)
-		(pin "2"
-			(uuid "b2a86131-d181-4468-af41-bd2e2c9ec8fb")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
-					(reference "R4")
 					(unit 1)
 				)
 			)
