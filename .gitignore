@@ -2,4 +2,5 @@
 fp-info-cache
 *-backups
 gerber*
-_autosave*
+*_autosave*
+*auto_saved_files*
