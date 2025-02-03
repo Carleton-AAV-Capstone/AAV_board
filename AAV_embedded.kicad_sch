@@ -7,7 +7,8 @@
 	(title_block
 		(title "AAV Edge Main")
 		(date "2025-01-31")
-		(comment 1 "Charlie Wadds")
+		(rev "1")
+		(company "Charlie Wadds")
 	)
 	(lib_symbols
 		(symbol "Analog_DAC:DAC101C081CIMK"
@@ -1797,6 +1798,262 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_3_Bridged12"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_0_1"
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Logic_LevelTranslator:FXMA108"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3243,6 +3500,253 @@
 				)
 			)
 		)
+		(symbol "dk_Trimmer-Potentiometers:TC33X-2-103E"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "POT"
+				(at -5.334 4.318 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TC33X-2-103E"
+				(at 0.254 -2.794 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "digikey-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TRIMMER 10K OHM 0.1W J LEAD TOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key_PN" "TC33X-103ETR-ND"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TC33X-2-103E"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Potentiometers, Variable Resistors"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Trimmer Potentiometers"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ETR-ND/612858"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "TRIMMER 10K OHM 0.1W J LEAD TOP"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns Inc."
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TC33X-103ETR-ND Trimpot® TC33 - Open Frame"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TC33X-2-103E_0_1"
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.175) (xy 0.635 3.175) (xy 0 1.905) (xy -0.635 3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 1.27) (xy -1.27 -1.27) (xy -0.635 1.27) (xy 0 -1.27) (xy 0.635 1.27) (xy 1.27 -1.27)
+						(xy 1.905 1.27) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TC33X-2-103E_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Wiper"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "CW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -3467,16 +3971,16 @@
 		(uuid "02303199-f7e9-4fc6-be39-20af27368e0b")
 	)
 	(junction
-		(at 275.59 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13c56068-e60a-4a7c-9d5f-0be9da359ae2")
-	)
-	(junction
 		(at 20.32 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "174b4761-050c-481f-be03-8a797e272eb6")
+	)
+	(junction
+		(at 259.08 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3192dd7f-693d-42f3-a641-e4254ed87e24")
 	)
 	(junction
 		(at 218.44 144.78)
@@ -3491,12 +3995,6 @@
 		(uuid "39922150-3d6d-42c6-97e5-12f33e7a62d8")
 	)
 	(junction
-		(at 262.89 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a32c455-3957-4db0-8233-1184a3353a02")
-	)
-	(junction
 		(at 255.27 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3509,22 +4007,10 @@
 		(uuid "560c31c7-beca-4f8e-ad7c-b3c14a65ff86")
 	)
 	(junction
-		(at 262.89 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5eebe59a-21dc-427a-8676-6246c75f73c9")
-	)
-	(junction
 		(at 256.54 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60bf88a2-43d0-432a-86c1-ebbef612a033")
-	)
-	(junction
-		(at 262.89 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65a17e7a-9968-43bc-b21c-7680c61c4a89")
 	)
 	(junction
 		(at 234.95 144.78)
@@ -3539,34 +4025,16 @@
 		(uuid "6953ae52-dffb-4fcf-825c-265badd5ea57")
 	)
 	(junction
-		(at 269.24 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ce473a8-085d-45d4-a980-ed299a654991")
-	)
-	(junction
-		(at 269.24 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d021292-f9d4-448b-8235-b9d7db3a942e")
-	)
-	(junction
 		(at 234.95 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73529027-2029-4461-be62-efc9e58c72a7")
 	)
 	(junction
-		(at 48.26 31.75)
+		(at 259.08 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77c265f0-e293-44d1-b4bc-b4eb52b6c595")
-	)
-	(junction
-		(at 275.59 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8626c3d3-a469-455c-81b2-c67358abd174")
+		(uuid "78f5586b-23ef-427b-a5e4-fe8b40416d07")
 	)
 	(junction
 		(at 194.31 100.33)
@@ -3597,6 +4065,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4651ad8-4217-4e0a-bb35-3329bd3f6b25")
+	)
+	(junction
+		(at 279.4 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a48c5228-b7bd-46c6-b445-b8c419a41921")
 	)
 	(junction
 		(at 238.76 142.24)
@@ -3645,6 +4119,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fac29f38-bfbf-4498-9315-c5162007e032")
+	)
+	(no_connect
+		(at 276.86 26.67)
+		(uuid "4e71625e-be74-4e4b-903e-e0d4c1394fba")
+	)
+	(no_connect
+		(at 254 29.21)
+		(uuid "629309f1-95f4-4f8a-bcd2-5646ad8ee80d")
 	)
 	(no_connect
 		(at 242.57 111.76)
@@ -3732,6 +4214,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 21.59) (xy 259.08 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070c67cb-a343-49a6-b912-66f231ad304f")
+	)
+	(wire
+		(pts
 			(xy 269.24 116.84) (xy 267.97 116.84)
 		)
 		(stroke
@@ -3802,23 +4294,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 25.4) (xy 269.24 24.13)
+			(xy 279.4 19.05) (xy 279.4 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "173f57c3-b664-498e-907d-c7e61b0ceca5")
-	)
-	(wire
-		(pts
-			(xy 262.89 16.51) (xy 262.89 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17b7cace-4ca0-42bc-9a86-c5454f777783")
+		(uuid "178f6f83-7b86-4c8c-ab5c-03ad07504295")
 	)
 	(wire
 		(pts
@@ -3862,16 +4344,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 16.51) (xy 266.7 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cf6853b-6a17-410a-89e8-500720e446fd")
-	)
-	(wire
-		(pts
 			(xy 203.2 63.5) (xy 200.66 63.5)
 		)
 		(stroke
@@ -3902,16 +4374,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 19.05) (xy 275.59 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212fcc21-9605-4168-8671-d0b633fcec8d")
-	)
-	(wire
-		(pts
 			(xy 48.26 24.13) (xy 49.53 24.13)
 		)
 		(stroke
@@ -3929,16 +4391,6 @@
 			(type default)
 		)
 		(uuid "24ad689f-de68-48dc-b4c5-5da68e238044")
-	)
-	(wire
-		(pts
-			(xy 262.89 33.02) (xy 262.89 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25c68d49-c0ff-4c2f-97a4-e4023d2bcad0")
 	)
 	(wire
 		(pts
@@ -3982,13 +4434,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 31.75) (xy 67.31 31.75)
+			(xy 259.08 40.64) (xy 266.7 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28c9ad55-b797-43b0-a36d-509500445028")
+		(uuid "2b6649a8-551b-41f3-ae14-a616c22f051a")
 	)
 	(wire
 		(pts
@@ -4032,16 +4484,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 21.59) (xy 262.89 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3146bd66-58e4-485b-b957-d0c6e085eb5b")
-	)
-	(wire
-		(pts
 			(xy 173.99 119.38) (xy 181.61 119.38)
 		)
 		(stroke
@@ -4049,16 +4491,6 @@
 			(type default)
 		)
 		(uuid "317974b5-ae09-45a6-8ba5-511674f87c8c")
-	)
-	(wire
-		(pts
-			(xy 257.81 21.59) (xy 262.89 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "330bda6b-423c-4dc3-aef9-7ee80560ee6f")
 	)
 	(wire
 		(pts
@@ -4092,16 +4524,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 38.1) (xy 269.24 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39e681b9-66a1-4a84-a977-ef4e947b577a")
-	)
-	(wire
-		(pts
 			(xy 219.71 68.58) (xy 246.38 68.58)
 		)
 		(stroke
@@ -4132,16 +4554,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 38.1) (xy 269.24 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4090daae-0c81-4446-aa30-a576205910cc")
-	)
-	(wire
-		(pts
 			(xy 204.47 114.3) (xy 201.93 114.3)
 		)
 		(stroke
@@ -4149,6 +4561,16 @@
 			(type default)
 		)
 		(uuid "4096e548-93a3-4a03-a478-829da148315c")
+	)
+	(wire
+		(pts
+			(xy 271.78 19.05) (xy 279.4 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b683f0-6bd7-4055-8db5-7fac8c1f4221")
 	)
 	(wire
 		(pts
@@ -4300,6 +4722,16 @@
 		)
 		(uuid "52cd67e3-8e0f-404b-8436-0892741757fd")
 	)
+	(polyline
+		(pts
+			(xy 228.6 11.43) (xy 228.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53519e1a-9835-4025-939f-98c9f11d3f73")
+	)
 	(wire
 		(pts
 			(xy 149.86 101.6) (xy 149.86 105.41)
@@ -4309,16 +4741,6 @@
 			(type default)
 		)
 		(uuid "535da8ec-4553-4b31-85da-f3b14d15f306")
-	)
-	(wire
-		(pts
-			(xy 262.89 36.83) (xy 262.89 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54c719e7-e11d-40fe-b05e-05c3f77f1551")
 	)
 	(wire
 		(pts
@@ -4432,16 +4854,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 21.59) (xy 252.73 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "614b6c18-2c98-4c20-9e69-fdeac4591b52")
-	)
-	(wire
-		(pts
 			(xy 269.24 132.08) (xy 267.97 132.08)
 		)
 		(stroke
@@ -4449,16 +4861,6 @@
 			(type default)
 		)
 		(uuid "6372a696-e3fa-4bd6-982c-21ec7c4a974f")
-	)
-	(wire
-		(pts
-			(xy 68.58 34.29) (xy 68.58 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676de6af-9600-4eb8-8c60-20c612b122aa")
 	)
 	(wire
 		(pts
@@ -4479,16 +4881,6 @@
 			(type default)
 		)
 		(uuid "6b6a1c7e-bb73-48a7-b90a-0b3f8bbd90f1")
-	)
-	(wire
-		(pts
-			(xy 252.73 36.83) (xy 252.73 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f744223-e593-4f3a-9178-5ce6190c4079")
 	)
 	(polyline
 		(pts
@@ -4522,16 +4914,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 24.13) (xy 275.59 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75de1d33-a0a9-46a0-a974-64d6cd4ebf15")
-	)
-	(wire
-		(pts
 			(xy 269.24 127) (xy 267.97 127)
 		)
 		(stroke
@@ -4539,6 +4921,16 @@
 			(type default)
 		)
 		(uuid "76e60d69-5de0-4aa3-b9a7-4fc3ae2b97bc")
+	)
+	(wire
+		(pts
+			(xy 246.38 40.64) (xy 259.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f67b29-d9f6-4393-9166-96447e58318b")
 	)
 	(wire
 		(pts
@@ -4560,6 +4952,16 @@
 		)
 		(uuid "78c72efe-95e1-47a8-b7b9-4699934d7e07")
 	)
+	(polyline
+		(pts
+			(xy 234.95 45.72) (xy 228.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b87e66f-cb9d-4c58-89f9-0b9a6d4d7d88")
+	)
 	(wire
 		(pts
 			(xy 256.54 60.96) (xy 269.24 60.96)
@@ -4569,16 +4971,6 @@
 			(type default)
 		)
 		(uuid "7e1368f2-2b12-4838-8f8f-e3fa23f6b3b5")
-	)
-	(wire
-		(pts
-			(xy 57.15 31.75) (xy 48.26 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fd9764d-b2b8-42c3-8395-92f21e8955bb")
 	)
 	(wire
 		(pts
@@ -4592,16 +4984,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 16.51) (xy 278.13 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82ddbac1-bb39-4e9e-a410-b9daf1ebc0b2")
-	)
-	(wire
-		(pts
 			(xy 180.34 132.08) (xy 181.61 132.08)
 		)
 		(stroke
@@ -4612,13 +4994,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 20.32) (xy 269.24 20.32)
+			(xy 259.08 26.67) (xy 266.7 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "844bbb7c-5e72-4b74-b516-e0f228f856ca")
+		(uuid "87ec0476-58ce-4520-9cef-51d0375d060d")
 	)
 	(wire
 		(pts
@@ -4652,13 +5034,23 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 33.02) (xy 275.59 39.37)
+			(xy 242.57 29.21) (xy 243.84 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8da65c69-0c76-4486-b229-0633ddaea5b0")
+		(uuid "8d206f6f-b796-417e-8a1c-8fa8c82c6664")
+	)
+	(wire
+		(pts
+			(xy 232.41 40.64) (xy 238.76 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e80535c-fda1-41da-a1f6-702428458a8a")
 	)
 	(wire
 		(pts
@@ -4682,16 +5074,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 34.29) (xy 280.67 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fbb123c-5792-4ce2-9bc5-31287b51b55c")
-	)
-	(wire
-		(pts
 			(xy 218.44 139.7) (xy 218.44 142.24)
 		)
 		(stroke
@@ -4699,16 +5081,6 @@
 			(type default)
 		)
 		(uuid "91660986-6701-4a59-a747-f8586e6c7199")
-	)
-	(wire
-		(pts
-			(xy 255.27 21.59) (xy 255.27 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9308e398-ad78-4c68-8d81-de3e4b9bfd50")
 	)
 	(polyline
 		(pts
@@ -4832,23 +5204,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 19.05) (xy 275.59 19.05)
+			(xy 262.89 17.78) (xy 262.89 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6f0636c-fc27-4ce6-b67e-3f10ffc64fb0")
-	)
-	(wire
-		(pts
-			(xy 257.81 36.83) (xy 262.89 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa6ab395-7d4d-47d2-8351-7edbbe2e293d")
+		(uuid "a3d5b832-84fd-42a7-b930-43a4f094ac56")
 	)
 	(wire
 		(pts
@@ -4862,6 +5224,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 40.64) (xy 279.4 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafb555b-7a7c-4223-acbf-366d722d18a9")
+	)
+	(wire
+		(pts
 			(xy 199.39 100.33) (xy 200.66 100.33)
 		)
 		(stroke
@@ -4869,6 +5241,16 @@
 			(type default)
 		)
 		(uuid "abc28c00-c20a-4101-bd9b-fabb8500e0be")
+	)
+	(wire
+		(pts
+			(xy 257.81 17.78) (xy 262.89 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace37f6b-fe99-423f-9d24-c255512a7381")
 	)
 	(wire
 		(pts
@@ -4889,6 +5271,16 @@
 			(type default)
 		)
 		(uuid "aebdfec8-f7f3-4bca-80ec-e05a1c6ea975")
+	)
+	(wire
+		(pts
+			(xy 237.49 25.4) (xy 238.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d961ab-4594-4dc6-93ae-6b53060c442e")
 	)
 	(wire
 		(pts
@@ -4990,6 +5382,16 @@
 		)
 		(uuid "bf2b4ca1-b75f-41da-8c19-d376f67bb700")
 	)
+	(wire
+		(pts
+			(xy 259.08 40.64) (xy 259.08 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04a87d1-3361-4591-a97e-22e960a183ba")
+	)
 	(polyline
 		(pts
 			(xy 129.54 166.37) (xy 177.8 166.37)
@@ -5072,16 +5474,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 36.83) (xy 255.27 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbc577b9-cc79-4010-b137-5887bc8c5444")
-	)
-	(wire
-		(pts
 			(xy 218.44 144.78) (xy 218.44 157.48)
 		)
 		(stroke
@@ -5089,26 +5481,6 @@
 			(type default)
 		)
 		(uuid "ccde91c3-d823-4c2b-830a-f50a0e353121")
-	)
-	(wire
-		(pts
-			(xy 278.13 16.51) (xy 278.13 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf086050-7d24-428b-be7a-236e1039c513")
-	)
-	(wire
-		(pts
-			(xy 269.24 34.29) (xy 269.24 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a4979c-d4e6-45f7-8e68-39316cf83172")
 	)
 	(wire
 		(pts
@@ -5290,16 +5662,6 @@
 		)
 		(uuid "e7d6cc5d-8943-42a4-bfa3-110261f9900c")
 	)
-	(wire
-		(pts
-			(xy 269.24 20.32) (xy 269.24 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8593ae4-2de3-4c39-a78d-d5c05badaf2c")
-	)
 	(polyline
 		(pts
 			(xy 167.64 166.37) (xy 167.64 88.9)
@@ -5312,13 +5674,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 39.37) (xy 275.59 39.37)
+			(xy 248.92 21.59) (xy 259.08 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebb2ecf8-7b39-426e-936c-4ec5ec1fb037")
+		(uuid "e934b2fa-f6af-41bc-91d5-d03ac17056fd")
 	)
 	(wire
 		(pts
@@ -5332,16 +5694,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 33.02) (xy 275.59 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed1ef069-b438-49cf-85b8-a846dbed2679")
-	)
-	(wire
-		(pts
 			(xy 170.18 124.46) (xy 170.18 121.92)
 		)
 		(stroke
@@ -5349,6 +5701,16 @@
 			(type default)
 		)
 		(uuid "ed60362a-6dc8-4edd-93e6-4ada9a11fbab")
+	)
+	(wire
+		(pts
+			(xy 232.41 29.21) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5ffef1-0f5b-410d-9ec4-1bf019b5f7af")
 	)
 	(wire
 		(pts
@@ -5362,6 +5724,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 17.78) (xy 238.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f097c0cc-3a2b-441f-a202-b17de04da4bb")
+	)
+	(wire
+		(pts
 			(xy 177.8 129.54) (xy 181.61 129.54)
 		)
 		(stroke
@@ -5369,16 +5741,6 @@
 			(type default)
 		)
 		(uuid "f2b953f4-ad5b-4adf-b9e4-ddf731c67c69")
-	)
-	(wire
-		(pts
-			(xy 262.89 34.29) (xy 269.24 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4f58a2c-8584-44be-833d-6463842d0cf0")
 	)
 	(wire
 		(pts
@@ -5442,16 +5804,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 24.13) (xy 275.59 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb14f743-5655-48d8-b4c1-1d855496e6d1")
-	)
-	(wire
-		(pts
 			(xy 154.94 113.03) (xy 154.94 118.11)
 		)
 		(stroke
@@ -5459,25 +5811,6 @@
 			(type default)
 		)
 		(uuid "fdd2146b-ce41-46f5-93ef-8514407d9cbe")
-	)
-	(text_box "VOLTAGES\nrange from 2.7 to 5 because the dac minimum voltage is 2.7.\nThis should be ok with i2c but it is possible that missed ack will need to be ignored on microcontrocontroller at lower voltages\n| SW1 | SW2 | SW3 | Vout|\n-----------------|\n|  0  |  0  |  0  | 5V    | \n|  0  |  0  |  1  | 4.54V | \n|  0  |  1  |  0  | 4V    | \n|  0  |  1  |  1  | 3.7V  | \n|  1  |  0  |  0  | 3.12V |\n|  1  |  0  |  1  | 3.33V | \n|  1  |  1  |  0  | 2.85V | \n|  1  |  1  |  1  | 2.7V  |  "
-		(exclude_from_sim no)
-		(at 189.23 11.43 0)
-		(size 46.99 34.29)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "07b8e3d8-b5e5-4d2b-991e-241242425fbd")
 	)
 	(text_box "Throttle"
 		(exclude_from_sim no)
@@ -5516,25 +5849,6 @@
 			(justify left top)
 		)
 		(uuid "449cb116-6a2c-45ff-a132-7982f11d4ddd")
-	)
-	(text_box "SW1 ^  SW2^  SW3^"
-		(exclude_from_sim no)
-		(at 245.11 40.64 0)
-		(size 24.13 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "51f16ad6-6b26-465c-96e3-40f9a6f4f1d7")
 	)
 	(text_box "JTAG connector\n"
 		(exclude_from_sim no)
@@ -5593,25 +5907,6 @@
 		)
 		(uuid "c9b4013e-e9e7-4307-827b-a70bf29aedcd")
 	)
-	(text_box "This is literally just a 10K resistor to GND with nothing reading it??"
-		(exclude_from_sim no)
-		(at 260.35 0.635 0)
-		(size 27.305 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d438a549-fd50-4f2c-83db-75c0d8ebdfed")
-	)
 	(text_box "BUTTONS"
 		(exclude_from_sim no)
 		(at 62.23 120.65 0)
@@ -5651,16 +5946,6 @@
 		)
 		(uuid "1a33ae66-2f9b-4335-adaf-2cc6dd0e1c61")
 	)
-	(label "SW3"
-		(at 257.81 36.83 0)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-			(justify left bottom)
-		)
-		(uuid "44bff9a0-3299-4fdb-a968-4e35481fcebd")
-	)
 	(label "THR_STAT_K"
 		(at 193.04 63.5 180)
 		(effects
@@ -5690,26 +5975,6 @@
 			(justify left bottom)
 		)
 		(uuid "70ee67fb-bf07-4474-ae2d-36615d58a3f3")
-	)
-	(label "SW2"
-		(at 255.27 38.1 0)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a1d8ab8-0212-4ca7-8b08-dc1bd8fcfeb4")
-	)
-	(label "SW1"
-		(at 252.73 39.37 0)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8b6d071-caea-446d-9c08-223552495751")
 	)
 	(label "THR_STAT_SW"
 		(at 200.66 63.5 0)
@@ -6281,28 +6546,6 @@
 			)
 		)
 	)
-	(global_label "dac_v+"
-		(shape input)
-		(at 280.67 34.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7af19347-f089-4d1e-bc53-d99a53a6781b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 44.1694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "THR-"
 		(shape input)
 		(at 204.47 72.39 90)
@@ -6497,6 +6740,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "dac_v+"
+		(shape input)
+		(at 257.81 17.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a88f2c6c-4db8-4215-960d-becac5b94547")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.9306 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7289,75 +7554,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 275.59 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e855ac6-b83c-4d4c-a015-f98fde4f5fa1")
-		(property "Reference" "R18"
-			(at 277.876 30.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2k"
-			(at 275.59 30.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 277.368 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 275.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06f960fa-2481-4ed7-b15a-2c85e54696ff")
-		)
-		(pin "2"
-			(uuid "c0656cd6-b89b-41bb-aff6-aa52790f311b")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 186.69 99.06 90)
 		(mirror x)
@@ -7422,71 +7618,6 @@
 			(project "AAV_embedded"
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 278.13 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1188d121-97cf-4d3b-80f5-df65a7fef0ce")
-		(property "Reference" "#PWR025"
-			(at 278.13 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 280.924 17.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 278.13 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73078f24-e137-45f2-b431-715635c5cf99")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8328,87 +8459,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x03")
-		(at 255.27 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41cb2f71-5174-4dc6-b72e-898b04a5c447")
-		(property "Reference" "SW3"
-			(at 243.078 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_DIP_x03"
-			(at 238.252 31.242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W6.73mm_P2.54mm_LowProfile_JPin"
-			(at 257.81 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 255.27 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac276bbb-26ab-4335-aa89-2d44082563a1")
-		)
-		(pin "3"
-			(uuid "13d3fc12-909b-4bc9-bf5c-8a0209dec078")
-		)
-		(pin "6"
-			(uuid "61cdf024-d212-40df-b829-0691811af58d")
-		)
-		(pin "4"
-			(uuid "2f345946-7b12-451d-bc22-ab52902c76da")
-		)
-		(pin "5"
-			(uuid "2953db8f-628c-49c4-87d8-0d735e0aa96f")
-		)
-		(pin "2"
-			(uuid "7aeb84ed-40c8-4c70-86d8-53696a60f48a")
-		)
-		(instances
-			(project ""
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x03")
 		(at 226.06 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8815,6 +8865,169 @@
 		)
 	)
 	(symbol
+		(lib_id "dk_Trimmer-Potentiometers:TC33X-2-103E")
+		(at 248.92 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66b292bf-97b2-4516-9570-4c6a2cceb4b3")
+		(property "Reference" "POT1"
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TC33X-2-103E"
+			(at 249.174 34.544 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical"
+			(at 254 24.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+			(at 254 21.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRIMMER 10K OHM 0.1W J LEAD TOP"
+			(at 248.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "TC33X-103ETR-ND"
+			(at 254 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TC33X-2-103E"
+			(at 254 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Potentiometers, Variable Resistors"
+			(at 254 13.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Trimmer Potentiometers"
+			(at 254 11.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+			(at 254 8.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ETR-ND/612858"
+			(at 254 6.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TRIMMER 10K OHM 0.1W J LEAD TOP"
+			(at 254 3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 254 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 254 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8d6657f-5906-4e6c-ba15-83e0229849f9")
+		)
+		(pin "2"
+			(uuid "b4a31bc8-18b1-45f2-8aeb-130c084e59f1")
+		)
+		(pin "3"
+			(uuid "35f5696f-6b5f-4316-a943-70b651bcdc47")
+		)
+		(instances
+			(project ""
+				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
+					(reference "POT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 27.94 19.05 0)
 		(unit 1)
@@ -8941,6 +9154,140 @@
 			(project "AAV_embedded"
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.4 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c25bb07-05ea-495a-b582-bf7358cd0344")
+		(property "Reference" "#PWR014"
+			(at 279.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.146 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f316c35-0bc1-4b95-9ee7-fb0678e1f35b")
+		)
+		(instances
+			(project "AAV_embedded"
+				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f68649b-e420-4af5-a0c8-fdd6314c9503")
+		(property "Reference" "R4"
+			(at 243.84 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 244.348 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 242.57 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00e4bcd9-15e4-45e9-b0e6-62860ee2fd18")
+		)
+		(pin "2"
+			(uuid "803055d3-b4fc-430e-b539-b31927839e31")
+		)
+		(instances
+			(project "AAV_embedded"
+				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9077,6 +9424,71 @@
 			(project "AAV_embedded"
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 238.76 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8290b8e9-f21b-4837-a112-abb7ca67c11e")
+		(property "Reference" "#PWR024"
+			(at 238.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 238.506 14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 238.76 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a4cbe32-fbf7-4ec2-88c5-c46138f900fc")
+		)
+		(instances
+			(project "AAV_embedded"
+				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9357,73 +9769,6 @@
 			(project ""
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 270.51 16.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "937e95aa-2c65-4548-8d2e-29b7784757b8")
-		(property "Reference" "R15"
-			(at 270.256 14.224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 270.51 16.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 270.51 14.732 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 270.51 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "060a2f90-da34-474d-8b33-32c7b5ad65c8")
-		)
-		(pin "2"
-			(uuid "3a2837e0-0def-4c0e-ad8c-287df8009a92")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9833,71 +10178,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 262.89 16.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6a45fb5-9f30-4d05-95cc-683b5fd7ee39")
-		(property "Reference" "#PWR024"
-			(at 262.89 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 259.842 14.224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 262.89 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db6b11c2-c787-4e6d-9955-f9bd3622a7bf")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 234.95 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10244,75 +10524,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 269.24 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3047d88-44b1-4e9d-861a-c76351071e3a")
-		(property "Reference" "R17"
-			(at 271.526 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5k"
-			(at 269.24 30.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 271.018 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 269.24 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fa687ab-8313-40b7-9abc-70dd2286d0d0")
-		)
-		(pin "2"
-			(uuid "359c4c32-914b-40f5-bedb-5b60a15b8cb4")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 196.85 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10450,6 +10661,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 270.51 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4c8bc58-80dc-4481-98fb-87115a172354")
+		(property "Reference" "R15"
+			(at 271.78 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 272.288 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 270.51 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 270.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b09b043-b950-4e6c-811f-d5867e26edd9")
+		)
+		(pin "2"
+			(uuid "aca1a219-d517-46b7-8ec8-fe2f5257aece")
+		)
+		(instances
+			(project "AAV_embedded"
+				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 234.95 128.27 0)
 		(unit 1)
@@ -10513,6 +10793,79 @@
 			(project "AAV_embedded"
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 237.49 29.21 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8afd929-80d9-41fa-be68-42ba6252042f")
+		(property "Reference" "JP3"
+			(at 241.808 23.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POT_HIGH_BYPASS"
+			(at 249.936 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
+			(at 237.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 237.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "57e1bfec-ad17-4c68-82f8-f09bfb1fdc3e")
+		)
+		(pin "1"
+			(uuid "dc06c4f1-d0c8-48da-8349-00c05bc09b85")
+		)
+		(pin "2"
+			(uuid "26eae3f8-6cb4-4541-bae2-88d91e639d3c")
+		)
+		(instances
+			(project "AAV_embedded"
+				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -10656,100 +11009,36 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 68.58 34.29 0)
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 259.08 31.75 90)
+		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e449a414-0581-4c0b-840a-564be1f9503f")
-		(property "Reference" "#PWR035"
-			(at 68.58 40.64 0)
+		(uuid "e412cf5d-ecfd-43c0-a2c1-2fd1c444b47b")
+		(property "Reference" "JP4"
+			(at 260.858 25.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "POT_LOW_BYPASS"
+			(at 278.892 15.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 68.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5824efc-9676-4901-87f7-4d06079c10ca")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 262.89 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd5a6476-5de7-45d9-ac1f-16ebcb531e72")
-		(property "Reference" "R16"
-			(at 265.43 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 262.89 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 264.668 29.21 90)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
+			(at 259.08 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10758,7 +11047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 29.21 0)
+			(at 259.08 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10766,25 +11055,192 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 262.89 29.21 0)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 259.08 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "ec3b6eef-c3bd-4f6e-8bdd-e2264b2d8132")
 		)
 		(pin "1"
-			(uuid "579093b7-da2c-446a-8ebe-96a5b14f278c")
+			(uuid "f29da934-a65b-431d-a78a-0fa6648cfa7e")
 		)
 		(pin "2"
-			(uuid "49bca7b0-a1cc-4add-a751-b58ee4eecf17")
+			(uuid "e5fa0409-0413-4dd7-afee-3298c0934dab")
 		)
 		(instances
 			(project "AAV_embedded"
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
-					(reference "R16")
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_Trimmer-Potentiometers:TC33X-2-103E")
+		(at 271.78 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee951131-47e8-44bd-8faf-cda9c65fc35d")
+		(property "Reference" "POT2"
+			(at 271.78 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TC33X-2-103E"
+			(at 271.78 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical"
+			(at 276.86 21.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+			(at 276.86 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRIMMER 10K OHM 0.1W J LEAD TOP"
+			(at 271.78 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "TC33X-103ETR-ND"
+			(at 276.86 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TC33X-2-103E"
+			(at 276.86 13.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Potentiometers, Variable Resistors"
+			(at 276.86 11.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Trimmer Potentiometers"
+			(at 276.86 8.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+			(at 276.86 6.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ETR-ND/612858"
+			(at 276.86 3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TRIMMER 10K OHM 0.1W J LEAD TOP"
+			(at 276.86 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 276.86 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 276.86 -3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77167096-1d02-4a11-8448-687c91b35ede")
+		)
+		(pin "2"
+			(uuid "4a06f3c0-d0e4-4341-9e47-8cdef1abd0ea")
+		)
+		(pin "3"
+			(uuid "8768e508-4354-4ae0-8a6c-49637cb7852a")
+		)
+		(instances
+			(project "AAV_embedded"
+				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
+					(reference "POT2")
 					(unit 1)
 				)
 			)
@@ -10852,44 +11308,6 @@
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
 					(reference "#PWR05")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 25.4 156.21)
-		(size 35.56 26.67)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "092f69e6-8194-475d-8fbf-b7e2c2630761")
-		(property "Sheetname" "ESP32_micromod"
-			(at 25.4 155.4984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "esp32_micromod.kicad_sch"
-			(at 25.4 183.4646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df"
-					(page "4")
 				)
 			)
 		)

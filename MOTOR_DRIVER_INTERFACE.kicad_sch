@@ -6,6 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "AAV edge motor controller")
+		(date "2025-02-02")
+		(rev "1")
+		(company "Charlie Wadds")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74AHC1G08"
@@ -1522,390 +1525,6 @@
 				)
 			)
 		)
-		(symbol "Relay:RAYEX-L90"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "RAYEX-L90"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_RAYEX-L90"
-				(at 11.43 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf"
-				(at 8.89 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power relay, SPDT, 30A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "30A Single Pole Relay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Relay*SPDT*RAYEX*L90*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RAYEX-L90_1_0"
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RAYEX-L90_1_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 90)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 90)
-					(length 5.08) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 10.16 270)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 270)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 90)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -2313,16 +1932,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 100.33) (xy 209.55 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "264b9045-c140-4956-b437-f775936d2716")
-	)
-	(wire
-		(pts
 			(xy 229.87 34.29) (xy 229.87 31.75)
 		)
 		(stroke
@@ -2330,16 +1939,6 @@
 			(type default)
 		)
 		(uuid "26fe11a4-d3ab-43c5-bc8b-73169587123a")
-	)
-	(wire
-		(pts
-			(xy 204.47 153.67) (xy 204.47 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2949f4b3-1a33-42dc-9b48-c935825ed4d5")
 	)
 	(wire
 		(pts
@@ -2360,16 +1959,6 @@
 			(type default)
 		)
 		(uuid "2e4d2fd6-8ad2-468c-ae92-a9186144d690")
-	)
-	(wire
-		(pts
-			(xy 209.55 96.52) (xy 210.82 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f526e2-3039-40ed-b96a-e352057268f1")
 	)
 	(wire
 		(pts
@@ -2463,16 +2052,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 120.65) (xy 154.94 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e0df0b4-e576-4fa9-8358-2a9d80014f76")
-	)
-	(wire
-		(pts
 			(xy 177.8 71.12) (xy 177.8 69.85)
 		)
 		(stroke
@@ -2533,16 +2112,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 96.52) (xy 154.94 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b315857-dd78-4744-a650-01db37e174ae")
-	)
-	(wire
-		(pts
 			(xy 48.26 157.48) (xy 52.07 157.48)
 		)
 		(stroke
@@ -2580,16 +2149,6 @@
 			(type default)
 		)
 		(uuid "612121a6-06c0-444a-9e33-8f8f2dc561ae")
-	)
-	(wire
-		(pts
-			(xy 144.78 96.52) (xy 144.78 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6320cd55-18ae-4a78-9f67-239c69662ea4")
 	)
 	(wire
 		(pts
@@ -2633,16 +2192,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 120.65) (xy 209.55 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a583ef-be86-4f17-9c64-3b0fa404fe13")
-	)
-	(wire
-		(pts
 			(xy 26.67 170.18) (xy 26.67 175.26)
 		)
 		(stroke
@@ -2660,26 +2209,6 @@
 			(type default)
 		)
 		(uuid "6e6bf619-c84f-4ec9-933b-0c792a6e9865")
-	)
-	(wire
-		(pts
-			(xy 157.48 153.67) (xy 157.48 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e86d33a-64f9-4e75-808c-b65badb164e6")
-	)
-	(wire
-		(pts
-			(xy 157.48 96.52) (xy 154.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e912dcb-a97c-4e04-8ca0-722184fe5fab")
 	)
 	(wire
 		(pts
@@ -2710,16 +2239,6 @@
 			(type default)
 		)
 		(uuid "70f263c0-e50b-4e78-b7d5-d3b82209afe4")
-	)
-	(wire
-		(pts
-			(xy 157.48 133.35) (xy 171.45 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "768f9e33-2323-48ed-b336-c112602cfcdb")
 	)
 	(wire
 		(pts
@@ -2763,16 +2282,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 157.48) (xy 199.39 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a7346c2-782c-4d25-a98b-70592852b2ce")
-	)
-	(wire
-		(pts
 			(xy 96.52 166.37) (xy 96.52 158.75)
 		)
 		(stroke
@@ -2780,36 +2289,6 @@
 			(type default)
 		)
 		(uuid "7bc75db4-3f9e-4e3a-8fbf-b6a3fccb2afd")
-	)
-	(wire
-		(pts
-			(xy 212.09 133.35) (xy 226.06 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fbc5fb8-e28c-4032-abd5-ae8d0d5ee279")
-	)
-	(wire
-		(pts
-			(xy 212.09 153.67) (xy 212.09 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80542563-ffa8-4d45-b477-268602dbae59")
-	)
-	(wire
-		(pts
-			(xy 144.78 157.48) (xy 144.78 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85345930-5b36-4b6c-ae60-9aa5087fdf92")
 	)
 	(wire
 		(pts
@@ -2853,16 +2332,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 93.98) (xy 199.39 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a19b8897-364b-4dde-82ab-4156019c0d7c")
-	)
-	(wire
-		(pts
 			(xy 72.39 26.67) (xy 77.47 26.67)
 		)
 		(stroke
@@ -2903,16 +2372,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 158.75) (xy 149.86 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae055bdf-f986-48f0-b248-1ead907a071c")
-	)
-	(wire
-		(pts
 			(xy 63.5 58.42) (xy 63.5 59.69)
 		)
 		(stroke
@@ -2933,16 +2392,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 124.46) (xy 186.69 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b554b688-9aa7-4ff2-bb09-324f1bbe2e79")
-	)
-	(wire
-		(pts
 			(xy 68.58 110.49) (xy 74.93 110.49)
 		)
 		(stroke
@@ -2950,16 +2399,6 @@
 			(type default)
 		)
 		(uuid "b7d57ad8-b186-4d3f-95dd-048bcf4e3cbf")
-	)
-	(wire
-		(pts
-			(xy 149.86 158.75) (xy 163.83 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be1f667e-22ed-44bf-9afc-9bd19b52dcd4")
 	)
 	(wire
 		(pts
@@ -2990,26 +2429,6 @@
 			(type default)
 		)
 		(uuid "c5a815fc-f5b7-454c-9538-d941099556b6")
-	)
-	(wire
-		(pts
-			(xy 186.69 128.27) (xy 196.85 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cca07b79-2b71-426a-bd52-b92a21deeae7")
-	)
-	(wire
-		(pts
-			(xy 201.93 120.65) (xy 201.93 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce31e09b-1677-46f8-96e0-6da752ed4b5d")
 	)
 	(wire
 		(pts
@@ -3113,16 +2532,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 128.27) (xy 196.85 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e70915cd-0567-4edc-8ce3-2237dafbbdcc")
-	)
-	(wire
-		(pts
 			(xy 82.55 158.75) (xy 86.36 158.75)
 		)
 		(stroke
@@ -3140,16 +2549,6 @@
 			(type default)
 		)
 		(uuid "e99b7f17-fabd-4733-88bd-c20d2c868059")
-	)
-	(wire
-		(pts
-			(xy 147.32 120.65) (xy 147.32 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0ed44f1-c58d-427c-9c5a-b665e25ee749")
 	)
 	(wire
 		(pts
@@ -3180,35 +2579,6 @@
 			(type default)
 		)
 		(uuid "fbd1260c-b360-4e83-9089-9abb391731e2")
-	)
-	(wire
-		(pts
-			(xy 143.51 96.52) (xy 144.78 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde02385-ee31-4aac-908a-a8554fec8880")
-	)
-	(text_box "Add hardware relay based e-stop"
-		(exclude_from_sim no)
-		(at 133.35 165.1 0)
-		(size 50.8 27.94)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "5dad70ca-0c5d-46b5-b0a1-eb2f59269a35")
 	)
 	(text_box "this pin detects whether it is pulled low"
 		(exclude_from_sim no)
@@ -3281,28 +2651,6 @@
 		(uuid "086e0b03-c5e3-4907-ac8b-6cde6652eb85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 199.39 50.7613 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BRK_CTRL_+"
-		(shape input)
-		(at 144.78 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0bf17797-378d-409d-aaca-41a03cd645bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.9415 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,28 +2858,6 @@
 			)
 		)
 	)
-	(global_label "~{E-STOP}"
-		(shape input)
-		(at 171.45 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6207d64f-ca61-46a2-85a7-cee24511132b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.9342 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA_LOW_5v"
 		(shape input)
 		(at 36.83 27.94 180)
@@ -3611,50 +2937,6 @@
 		(uuid "7afd00e4-0728-4ffb-96ee-6a0b4d0e37d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 22.8987 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BRK_RELEASE"
-		(shape input)
-		(at 210.82 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b0cf58f-5f95-4280-9914-b765fb663a44")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.626 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BRK_+"
-		(shape input)
-		(at 143.51 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d03a8c7-4640-4bfe-8e4f-bb580fd54f10")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.1748 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,28 +3078,6 @@
 			)
 		)
 	)
-	(global_label "BRK_RELEASE"
-		(shape input)
-		(at 157.48 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9420e45f-24ec-4a8b-81e9-96644cb8ecc0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.286 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA_HIGH_5v"
 		(shape input)
 		(at 158.75 30.48 180)
@@ -3858,28 +3118,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{E-STOP}"
-		(shape input)
-		(at 226.06 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8418aea-1eaf-4437-ad06-554d8b387b21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.5442 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3928,28 +3166,6 @@
 			)
 		)
 	)
-	(global_label "BRK_CTRL_-"
-		(shape input)
-		(at 199.39 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2458366-f09f-4d8c-951f-087644fc14ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.5515 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX_STR_5v"
 		(shape input)
 		(at 35.56 113.03 180)
@@ -3985,28 +3201,6 @@
 		(uuid "dbe59862-6940-4c08-bfc8-26f74b185c52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.58 42.4155 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BRK_-"
-		(shape input)
-		(at 199.39 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e0750b41-5ac1-4522-b681-44cf3c5258fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.0548 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,240 +3500,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:RAYEX-L90")
-		(at 152.4 143.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14daab22-f058-457f-882e-181c22607826")
-		(property "Reference" "K5"
-			(at 163.83 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RAYEX-L90"
-			(at 163.83 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_RAYEX-L90"
-			(at 140.97 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf"
-			(at 143.51 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power relay, SPDT, 30A"
-			(at 152.4 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "13dbdda0-df05-4946-9fe9-aee2f6deb193")
-		)
-		(pin "14"
-			(uuid "99aefbd7-fb5e-4d66-b628-b83fe7e12897")
-		)
-		(pin "11A"
-			(uuid "baf4dcb3-a1dd-4332-b204-7fd4f1ef4a7e")
-		)
-		(pin "A2"
-			(uuid "024389af-a86c-47ba-9d41-ac118162bf5e")
-		)
-		(pin "11B"
-			(uuid "ddd43e9d-455d-4b38-9178-69ff4932e80c")
-		)
-		(pin "12"
-			(uuid "74d5c0a1-cc12-4966-ad40-59a0d3f0c1a9")
-		)
-		(instances
-			(project ""
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "K5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 186.69 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16acfbfe-ff44-430e-8f51-331052ff6d37")
-		(property "Reference" "#PWR061"
-			(at 186.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_BRK"
-			(at 186.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 186.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39548ae5-67a8-4b07-b726-02d40b3da40f")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:RAYEX-L90")
-		(at 207.01 143.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c91baca-1491-435f-85ac-c6c5d8a70768")
-		(property "Reference" "K3"
-			(at 218.44 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RAYEX-L90"
-			(at 218.44 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_RAYEX-L90"
-			(at 195.58 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf"
-			(at 198.12 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power relay, SPDT, 30A"
-			(at 207.01 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "ba4a45b0-5203-4deb-8ff4-eb689f2d9b8d")
-		)
-		(pin "14"
-			(uuid "b13f3313-1f30-421f-8c6a-31d626081cb4")
-		)
-		(pin "11A"
-			(uuid "ef8a5dea-71a8-415c-8fd5-a5978a93b5b7")
-		)
-		(pin "A2"
-			(uuid "227ece0d-ae3a-4daa-b31d-b2dba663e9f1")
-		)
-		(pin "11B"
-			(uuid "623658f9-91dc-4e97-88d9-72911ee36b85")
-		)
-		(pin "12"
-			(uuid "5266d763-ecbe-4dea-a44c-eb0d2c2ab2e9")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 19.05 53.34 0)
 		(unit 1)
@@ -4607,72 +3567,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c1532f7-3ee9-4f0a-8860-47707f7a8cd4")
-		(property "Reference" "#PWR057"
-			(at 142.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6cc65f9-4424-4d82-8927-767a6d8cb8ca")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 40.64 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4732,72 +3626,6 @@
 			(project "AAV_embedded"
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 209.55 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b42ea1c-1567-4e3a-b678-084046a084ef")
-		(property "Reference" "#PWR059"
-			(at 209.55 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7584115-c61e-428c-b892-66afa7fff66e")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5220,90 +4048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:RAYEX-L90")
-		(at 149.86 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60671fb7-f4ce-43cf-a34d-2caae10b8ecd")
-		(property "Reference" "K1"
-			(at 161.29 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RAYEX-L90"
-			(at 161.29 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_RAYEX-L90"
-			(at 138.43 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf"
-			(at 140.97 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power relay, SPDT, 30A"
-			(at 149.86 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "dc12083f-c455-49e2-b410-a142779def68")
-		)
-		(pin "14"
-			(uuid "c9f4af58-68d2-45aa-a1ed-bcce8952a7f4")
-		)
-		(pin "11A"
-			(uuid "b0980015-425a-4956-82e6-c91331278a1d")
-		)
-		(pin "A2"
-			(uuid "27cb77fd-ea5c-48b4-a0f0-7e9d81412c07")
-		)
-		(pin "11B"
-			(uuid "68f9f032-c53e-4af9-a288-e44a8946001b")
-		)
-		(pin "12"
-			(uuid "6643f637-48d8-4ed3-a16c-90a09baebb1d")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 62.23 165.1 0)
 		(unit 1)
@@ -5364,156 +4108,6 @@
 			(project "AAV_embedded"
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64e9839e-d150-427f-b6d3-16f22dda497b")
-		(property "Reference" "#PWR060"
-			(at 212.09 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0e478a7-5ecc-482e-b52e-90dfa5d6c6e8")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:RAYEX-L90")
-		(at 204.47 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67bae6aa-76e1-4662-af0b-c227270afe3e")
-		(property "Reference" "K2"
-			(at 215.9 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RAYEX-L90"
-			(at 215.9 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_RAYEX-L90"
-			(at 193.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf"
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power relay, SPDT, 30A"
-			(at 204.47 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "0b2b9719-0d4c-4cbe-a0e7-4cf482325b4f")
-		)
-		(pin "14"
-			(uuid "e1e0f72a-49cd-4936-ae89-d113c5864589")
-		)
-		(pin "11A"
-			(uuid "9db75d65-3b7e-4987-89af-57d3d1f7ce99")
-		)
-		(pin "A2"
-			(uuid "59c068e6-2aac-4280-b37c-7a9cb67cce61")
-		)
-		(pin "11B"
-			(uuid "b7394e84-1924-4048-9443-b74f3690b194")
-		)
-		(pin "12"
-			(uuid "6f2db211-1b3e-4405-b6f2-3d044dcfb07a")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -5684,72 +4278,6 @@
 			(project "AAV_embedded"
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74005d7b-3792-454d-9ed7-8800a9bc465e")
-		(property "Reference" "#PWR056"
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0b5950b-e92e-4517-8e1e-ed95fae60dc4")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6051,72 +4579,6 @@
 			(project "AAV_embedded"
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 163.83 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c2a67fb-a6aa-4db7-9805-66478c4ebb52")
-		(property "Reference" "#PWR054"
-			(at 163.83 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_BRK"
-			(at 163.83 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa1a27c3-818a-4b9c-b113-baf732c2bc40")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6660,72 +5122,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 204.47 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3e5fdd0-a19a-4472-816c-77093ffad29e")
-		(property "Reference" "#PWR058"
-			(at 204.47 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d09b630-02a9-4693-a1d0-22093c4e00da")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_4ms_Connector:Conn_02x03")
 		(at 214.63 34.29 0)
 		(unit 1)
@@ -6992,72 +5388,6 @@
 			(project "AAV_embedded"
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f98279f0-6cd9-4996-ab05-a906edc019ca")
-		(property "Reference" "#PWR055"
-			(at 157.48 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ca4d939-2834-4fec-a488-a09417f73dd8")
-		)
-		(instances
-			(project "AAV_embedded"
-				(path "/00c590f3-503a-497c-946e-4acf8f8302df/a133e678-5368-4dc9-bd48-fd90f9bfdabc"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
