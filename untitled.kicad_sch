@@ -7809,6 +7809,10 @@
 		(uuid "7506f845-f346-4be0-a46d-ab5c72cebdee")
 	)
 	(no_connect
+		(at 139.7 38.1)
+		(uuid "7c0f33d0-3fb6-40d2-affe-cefea5e5abb7")
+	)
+	(no_connect
 		(at 139.7 58.42)
 		(uuid "7cf0dc32-4c00-4b3e-b310-8fb34b0c64c6")
 	)
@@ -10612,6 +10616,26 @@
 			(justify right bottom)
 		)
 		(uuid "0f821b91-2fea-4c2d-b2bb-2ae1b1538491")
+	)
+	(label "CANL"
+		(at 147.32 144.78 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bedd7fd-09cb-4f88-adb1-ddc8e52534b5")
+	)
+	(label "CANH"
+		(at 149.86 144.78 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83029e4d-7dae-4470-b19c-d51b9614236c")
 	)
 	(label "XTAL_1"
 		(at 78.74 143.51 180)

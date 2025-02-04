@@ -480,7 +480,7 @@
       "gencad": "",
       "idf": "../../Downloads/AAV_embedded.emn",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "AAV_embedded.step",
