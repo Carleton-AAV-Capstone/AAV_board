@@ -7498,6 +7498,12 @@
 		(uuid "c6abd263-9b95-4c05-a063-d4b26cf0c52c")
 	)
 	(junction
+		(at 180.34 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6e4c81e-c546-450b-a859-d8e03023ef7b")
+	)
+	(junction
 		(at 21.59 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10045,6 +10051,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 69.85) (xy 176.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b41eeb-ed7f-4ab3-afe5-843d742e26e1")
+	)
+	(wire
+		(pts
 			(xy 43.18 92.71) (xy 43.18 88.9)
 		)
 		(stroke
@@ -10072,6 +10088,16 @@
 			(type default)
 		)
 		(uuid "da35d2ba-bc88-4fd9-94a9-ea1f38ebf4ea")
+	)
+	(wire
+		(pts
+			(xy 166.37 58.42) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf7ed4e-b181-437f-b5ee-73b6fc0b83c8")
 	)
 	(wire
 		(pts
@@ -10375,7 +10401,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 69.85) (xy 195.58 69.85)
+			(xy 199.39 69.85) (xy 180.34 69.85)
 		)
 		(stroke
 			(width 0)
@@ -10532,6 +10558,16 @@
 			(type default)
 		)
 		(uuid "fd18d3d0-85fc-4e79-803e-0dc5d60c1335")
+	)
+	(wire
+		(pts
+			(xy 180.34 66.04) (xy 180.34 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4e61c3-0cf1-4293-9c55-9b1028dcbf80")
 	)
 	(wire
 		(pts
@@ -11154,7 +11190,7 @@
 	)
 	(global_label "~{RESET_uMOD}"
 		(shape input)
-		(at 195.58 69.85 180)
+		(at 176.53 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11164,7 +11200,7 @@
 		)
 		(uuid "328167d8-4919-4b21-8b5f-2e158ef60105")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.6812 69.85 0)
+			(at 161.6312 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17774,7 +17810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connectors:JST-2-PTH"
+		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1-A_1x02_P2.50mm_Vertical"
 			(at 92.71 180.34 0)
 			(effects
 				(font
@@ -17811,6 +17847,141 @@
 			(project ""
 				(path "/00c590f3-503a-497c-946e-4acf8f8302df/c057d648-8c01-4f47-9aa9-79a3508e8159"
 					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b963862e-28ae-47b1-8919-408618fdf752")
+		(property "Reference" "#PWR051"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 169.926 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a299415-b3de-4214-963b-05ad14a480dc")
+		)
+		(instances
+			(project "AAV_embedded"
+				(path "/00c590f3-503a-497c-946e-4acf8f8302df/c057d648-8c01-4f47-9aa9-79a3508e8159"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc10aa1d-9687-41d9-a02c-e4142ac4d474")
+		(property "Reference" "C13"
+			(at 184.15 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 184.15 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 181.3052 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "621d3ce9-7345-4fd5-9adb-8c5e6c54b8c3")
+		)
+		(pin "1"
+			(uuid "f2de9092-3854-4420-a952-0c997c9bdb71")
+		)
+		(instances
+			(project "AAV_embedded"
+				(path "/00c590f3-503a-497c-946e-4acf8f8302df/c057d648-8c01-4f47-9aa9-79a3508e8159"
+					(reference "C13")
 					(unit 1)
 				)
 			)
